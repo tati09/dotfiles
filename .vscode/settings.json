@@ -1,0 +1,53 @@
+{
+    "editor.renderIndentGuides": true, // インデントのガイドの表示
+  "editor.renderLineHighlight": "all", // 選択行のハイライト
+  "editor.renderWhitespace": "all", // 半角スペースの表示
+  "editor.snippetSuggestions": "top", // スニペット候補の表示（Emmet）
+  "editor.tabSize": 4, // タブのサイズ変更
+  "editor.wordWrap": "false", // エディターの幅で折り返し
+  "emmet.showSuggestionsAsSnippets": true, // Emmet の候補を表示
+  "emmet.triggerExpansionOnTab": true, // TAB キーで Emmet を展開
+  "emmet.variables": {
+    // Emmet で展開される言語を変更
+    "lang": "ja"
+  },
+  "explorer.confirmDelete": false, // ファイル削除時の確認を表示しない
+  "files.associations": {
+    // ファイルと言語の関連付けを変更
+    ".*lintrc": "json"
+  },
+  "files.exclude": {
+    // エクスプローラーから非表示にするファイル
+    "**/*.map": true,
+    "**/node_modules": true
+  },
+  "files.insertFinalNewline": true, // ファイルの保存時に末尾を改行
+  "files.trimFinalNewlines": true, // ファイルの保存時に最終行以降をトリミング
+  "files.trimTrailingWhitespace": true, // ファイルの保存時に行末の空白をトリミング
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false // Markdown のファイルは行末の空白をトリミングしない
+  },
+  "html.format.contentUnformatted": "pre, code, textarea, title, h1, h2, h3, h4, h5, h6, p", // タグ内の記述はフォーマットしない
+  "html.format.extraLiners": "", // head, body, /html タグの前に改行を入れない
+  "html.format.unformatted": null, // フレージング・コンテンツ（旧インライン要素のようなタグ）はフォーマットしない
+  "html.format.wrapLineLength": 0, // 行の文字数制限を無くし自動で改行させない
+  "search.exclude": {
+    // 検索対象外にするファイル設定（ files.exclude のファイルも含む）
+    "**/tmp": true
+  },
+  "window.openFoldersInNewWindow": "on", // 新規ワークスペースを別ウインドウで開く
+  "window.title": "${activeEditorMedium}${separator}${rootName}", // ウインドウ上部に表示する文字列の設定
+  "workbench.editor.labelFormat": "short", // タブに表示する文字列の設定
+  "workbench.editor.tabSizing": "shrink", // タブの表示設定
+  "workbench.startupEditor": "none", // Welcome Page を表示しない
+  "editor.insertSpaces": true,
+  "explorer.confirmDragAndDrop": false,
+  "window.zoomLevel": 1,
+  // HTML タグの自動クローズを有効/無効にします。
+  "html.autoClosingTags": false,
+  "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
+  "editor.minimap.enabled": false,
+"workbench.editor.enablePreview": false,
+"workbench.iconTheme": "vscode-icons",
+"breadcrumbs.enabled": true
+}
